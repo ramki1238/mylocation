@@ -1,0 +1,27 @@
+.div-main-css{
+    background-color: black;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-family: monospace;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
